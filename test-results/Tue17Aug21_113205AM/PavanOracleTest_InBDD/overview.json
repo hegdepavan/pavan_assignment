@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "TC1_SearchAndAddItemToCart"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": null,
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "26-Jul-2020 22:16:34"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "scenarios/features/UI",
+      "dryrun.mode": "true",
+      "baseurl": "https://www.bigbasket.com/?nc=logo",
+      "step.provider.pkg": "com.pavan.steps"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_60",
+      "os.arch": "amd64",
+      "host": "pavanhegde",
+      "os.name": "Windows 8.1",
+      "user.name": "pavan",
+      "os.version": "6.3"
+    }
+  },
+  "startTime": 1629180125628,
+  "endTime": 1629180126230
+}

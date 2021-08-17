@@ -1,0 +1,267 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenApplicationUrl",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.bigbasket.com/?nc=logo}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9612
+        },
+        {
+          "commandName": "maximizeCurrentWindow",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1119
+        },
+        {
+          "commandName": "getCurrentUrl",
+          "args": [
+            "{}"
+          ],
+          "result": "https://www.bigbasket.com/?nc=logo",
+          "subLogs": [],
+          "duration": 235
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSearchWithKeyword",
+      "args": [
+        "[dosa]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=input, using=id}"
+          ],
+          "result": "id: 0.291357172198083-1",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: input",
+            "{\"value\":[\"dosa\"],\"id\":\"0.291357172198083-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 680
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectThItemFromSearchSuggesionList",
+      "args": [
+        "[4]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 744
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 251
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 303
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 246
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 239
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 224
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 271
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=text, using=partial link text}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 243
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify product details page is displayed",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user add '3' quantity to cart",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify the added product in my basket",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open application url",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 13774,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Opened URL --> https://www.bigbasket.com/?nc=logo",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user search with keyword \"dosa\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 871,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user select \"4\" th item from search suggesion list",
+      "type": "TestStepFail",
+      "screenshot": "img/VerifySearchAndAddingAProductToCart_3z29e12zkz7r3509.png",
+      "duration": 10783,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 10 seconds: Wait time out for By.partialLinkText: text to be present\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'pavanhegde', ip: '192.168.199.118', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify product details page is displayed",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user add '3' quantity to cart",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the added product in my basket",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 10 seconds: Wait time out for By.partialLinkText: text to be present\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'pavanhegde', ip: '192.168.199.118', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown\r\n\tat .And user select \"4\" th item from search suggesion list(scenarios/features/UI/TC1_SearchAndAddItemToCart.feature:7)\r\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:568)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.waitForTextPresent(WebDriverBaseTestPage.java:129)\r\n\tat com.pavan.pages.SearchPage.selectAnItemFromSearchSuggesion(SearchPage.java:30)\r\n\tat com.pavan.steps.SearchPage_Steps.userSelectThItemFromSearchSuggesionList(SearchPage_Steps.java:14)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\r\n"
+}

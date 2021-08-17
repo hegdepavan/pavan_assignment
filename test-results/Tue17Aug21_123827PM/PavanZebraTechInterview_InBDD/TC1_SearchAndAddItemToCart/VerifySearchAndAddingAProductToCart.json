@@ -1,0 +1,269 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenApplicationUrl",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.bigbasket.com/?nc=logo}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 17729
+        },
+        {
+          "commandName": "maximizeCurrentWindow",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1152
+        },
+        {
+          "commandName": "getCurrentUrl",
+          "args": [
+            "{}"
+          ],
+          "result": "https://www.bigbasket.com/?nc=logo",
+          "subLogs": [],
+          "duration": 204
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSearchWithKeyword",
+      "args": [
+        "[dosa]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=input, using=id}"
+          ],
+          "result": "id: 0.2619046081961982-1",
+          "subLogs": [],
+          "duration": 369
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: input",
+            "{\"value\":[\"dosa\"],\"id\":\"0.2619046081961982-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 268
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectThItemFromSearchSuggesionList",
+      "args": [
+        "[4]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.2619046081961982-2, id: 0.2619046081961982-3, id: 0.2619046081961982-4, id: 0.2619046081961982-5, id: 0.2619046081961982-6, id: 0.2619046081961982-7, id: 0.2619046081961982-8, id: 0.2619046081961982-9, id: 0.2619046081961982-10, id: 0.2619046081961982-11, id: 0.2619046081961982-12, id: 0.2619046081961982-13, id: 0.2619046081961982-14, id: 0.2619046081961982-15, id: 0.2619046081961982-16, id: 0.2619046081961982-17, id: 0.2619046081961982-18, id: 0.2619046081961982-19, id: 0.2619046081961982-20, id: 0.2619046081961982-21]",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.2619046081961982-2, id: 0.2619046081961982-3, id: 0.2619046081961982-4, id: 0.2619046081961982-5, id: 0.2619046081961982-6, id: 0.2619046081961982-7, id: 0.2619046081961982-8, id: 0.2619046081961982-9, id: 0.2619046081961982-10, id: 0.2619046081961982-11, id: 0.2619046081961982-12, id: 0.2619046081961982-13, id: 0.2619046081961982-14, id: 0.2619046081961982-15, id: 0.2619046081961982-16, id: 0.2619046081961982-17, id: 0.2619046081961982-18, id: 0.2619046081961982-19, id: 0.2619046081961982-20, id: 0.2619046081961982-21]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: ul[class*='suggesion'] [qa='prodNameAS']",
+            "{\"id\":\"0.2619046081961982-6\"}"
+          ],
+          "result": "getElementText:Dosa Rice",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.2619046081961982-2, id: 0.2619046081961982-3, id: 0.2619046081961982-4, id: 0.2619046081961982-5, id: 0.2619046081961982-6, id: 0.2619046081961982-7, id: 0.2619046081961982-8, id: 0.2619046081961982-9, id: 0.2619046081961982-10, id: 0.2619046081961982-11, id: 0.2619046081961982-12, id: 0.2619046081961982-13, id: 0.2619046081961982-14, id: 0.2619046081961982-15, id: 0.2619046081961982-16, id: 0.2619046081961982-17, id: 0.2619046081961982-18, id: 0.2619046081961982-19, id: 0.2619046081961982-20, id: 0.2619046081961982-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: ul[class*='suggesion'] [qa='prodNameAS']",
+            "{\"id\":\"0.2619046081961982-6\"}"
+          ],
+          "result": "getElementText:Dosa Rice",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.2619046081961982-2, id: 0.2619046081961982-3, id: 0.2619046081961982-4, id: 0.2619046081961982-5, id: 0.2619046081961982-6, id: 0.2619046081961982-7, id: 0.2619046081961982-8, id: 0.2619046081961982-9, id: 0.2619046081961982-10, id: 0.2619046081961982-11, id: 0.2619046081961982-12, id: 0.2619046081961982-13, id: 0.2619046081961982-14, id: 0.2619046081961982-15, id: 0.2619046081961982-16, id: 0.2619046081961982-17, id: 0.2619046081961982-18, id: 0.2619046081961982-19, id: 0.2619046081961982-20, id: 0.2619046081961982-21]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: ul[class*='suggesion'] [qa='prodNameAS']",
+            "{\"id\":\"0.2619046081961982-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 10441
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyProductDetailsPageIsDisplayed",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user add '3' quantity to cart",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify the added product in my basket",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open application url",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 21808,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Opened URL --> https://www.bigbasket.com/?nc=logo",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user search with keyword \"dosa\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 908,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user select \"4\" th item from search suggesion list",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 15588,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Number of Items suggested = 20",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Clicking a product with Name = Dosa Rice",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify product details page is displayed",
+      "type": "TestStepFail",
+      "screenshot": "img/VerifySearchAndAddingAProductToCart_ebwq9y5zvppg37189.png",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": null,
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user add '3' quantity to cart",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the added product in my basket",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .Then verify product details page is displayed(scenarios/features/UI/TC1_SearchAndAddItemToCart.feature:8)\r\n\tat com.pavan.steps.ProductDetailsPage_Steps.verifyProductDetailsPageIsDisplayed(ProductDetailsPage_Steps.java:13)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:127)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\r\n"
+}

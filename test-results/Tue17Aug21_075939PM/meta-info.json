@@ -1,0 +1,13 @@
+{
+  "name": "Pavan Zebra Tech Interview",
+  "status": "fail",
+  "tests": [
+    "PavanZebraTechInterview_InBDD"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 2,
+  "skip": 0,
+  "startTime": 1629210579489,
+  "endTime": 1629210585537
+}

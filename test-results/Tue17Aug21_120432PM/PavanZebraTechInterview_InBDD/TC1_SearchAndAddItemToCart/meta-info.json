@@ -1,0 +1,29 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "pavan",
+        "description": "",
+        "Feature": " Search for a product using keyword and add a random product to cart",
+        "groups": [
+          "regression"
+        ],
+        "lineNo": 4,
+        "name": "Verify search and adding a product to cart",
+        "reference": "scenarios/features/UI/TC1_SearchAndAddItemToCart.feature",
+        "resultFileName": "VerifySearchAndAddingAProductToCart",
+        "sign": "scenarios.features.UI.TC1_SearchAndAddItemToCart.feature.Verify search and adding a product to cart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1629182072518,
+      "duration": 25746,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "pavan",
+        "description": "",
+        "Feature": " Get vaccination sessions",
+        "groups": [
+          "regression",
+          "API_TC_01"
+        ],
+        "lineNo": 6.0,
+        "name": "Verify Get vaccination sessions API by district",
+        "reference": "scenarios/features/API/GetVaccinationAppointment.feature",
+        "resultFileName": "VerifyGetVaccinationSessionsAPIByDistrict",
+        "sign": "scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions API by district()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1629201494213,
+      "duration": 564,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "pavan",
+        "description": "",
+        "Feature": " Get vaccination sessions",
+        "groups": [
+          "regression",
+          "API_TC_02"
+        ],
+        "lineNo": 13,
+        "name": "Verify Get vaccination sessions by PIN for 7 days",
+        "reference": "scenarios/features/API/GetVaccinationAppointment.feature",
+        "resultFileName": "VerifyGetVaccinationSessionsByPINFor7Days",
+        "sign": "scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions by PIN for 7 days()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1629201494825,
+      "duration": 91,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpenApplicationUrl",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.bigbasket.com/?nc=logo}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 18597
+        },
+        {
+          "commandName": "maximizeCurrentWindow",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1143
+        },
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=30000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 122
+        },
+        {
+          "commandName": "getCurrentUrl",
+          "args": [
+            "{}"
+          ],
+          "result": "https://www.bigbasket.com/?nc=logo",
+          "subLogs": [],
+          "duration": 96
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSearchWithKeyword",
+      "args": [
+        "[dosa]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=input, using=id}"
+          ],
+          "result": "id: 0.017150503462846745-1",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: input",
+            "{\"value\":[\"dosa\"],\"id\":\"0.017150503462846745-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 701
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectThItemFromSearchSuggesionList",
+      "args": [
+        "[4]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.017150503462846745-2, id: 0.017150503462846745-3, id: 0.017150503462846745-4, id: 0.017150503462846745-5, id: 0.017150503462846745-6, id: 0.017150503462846745-7, id: 0.017150503462846745-8, id: 0.017150503462846745-9, id: 0.017150503462846745-10, id: 0.017150503462846745-11, id: 0.017150503462846745-12, id: 0.017150503462846745-13, id: 0.017150503462846745-14, id: 0.017150503462846745-15, id: 0.017150503462846745-16, id: 0.017150503462846745-17, id: 0.017150503462846745-18, id: 0.017150503462846745-19, id: 0.017150503462846745-20, id: 0.017150503462846745-21]",
+          "subLogs": [],
+          "duration": 132
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.017150503462846745-2, id: 0.017150503462846745-3, id: 0.017150503462846745-4, id: 0.017150503462846745-5, id: 0.017150503462846745-6, id: 0.017150503462846745-7, id: 0.017150503462846745-8, id: 0.017150503462846745-9, id: 0.017150503462846745-10, id: 0.017150503462846745-11, id: 0.017150503462846745-12, id: 0.017150503462846745-13, id: 0.017150503462846745-14, id: 0.017150503462846745-15, id: 0.017150503462846745-16, id: 0.017150503462846745-17, id: 0.017150503462846745-18, id: 0.017150503462846745-19, id: 0.017150503462846745-20, id: 0.017150503462846745-21]",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: ul[class*='suggesion'] [qa='prodNameAS']",
+            "{\"id\":\"0.017150503462846745-6\"}"
+          ],
+          "result": "getElementText:Dosa Rice",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.017150503462846745-2, id: 0.017150503462846745-3, id: 0.017150503462846745-4, id: 0.017150503462846745-5, id: 0.017150503462846745-6, id: 0.017150503462846745-7, id: 0.017150503462846745-8, id: 0.017150503462846745-9, id: 0.017150503462846745-10, id: 0.017150503462846745-11, id: 0.017150503462846745-12, id: 0.017150503462846745-13, id: 0.017150503462846745-14, id: 0.017150503462846745-15, id: 0.017150503462846745-16, id: 0.017150503462846745-17, id: 0.017150503462846745-18, id: 0.017150503462846745-19, id: 0.017150503462846745-20, id: 0.017150503462846745-21]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: ul[class*='suggesion'] [qa='prodNameAS']",
+            "{\"id\":\"0.017150503462846745-6\"}"
+          ],
+          "result": "getElementText:Dosa Rice",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=ul[class*='suggesion'] [qa='prodNameAS'], using=css selector}"
+          ],
+          "result": "[id: 0.017150503462846745-2, id: 0.017150503462846745-3, id: 0.017150503462846745-4, id: 0.017150503462846745-5, id: 0.017150503462846745-6, id: 0.017150503462846745-7, id: 0.017150503462846745-8, id: 0.017150503462846745-9, id: 0.017150503462846745-10, id: 0.017150503462846745-11, id: 0.017150503462846745-12, id: 0.017150503462846745-13, id: 0.017150503462846745-14, id: 0.017150503462846745-15, id: 0.017150503462846745-16, id: 0.017150503462846745-17, id: 0.017150503462846745-18, id: 0.017150503462846745-19, id: 0.017150503462846745-20, id: 0.017150503462846745-21]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: ul[class*='suggesion'] [qa='prodNameAS']",
+            "{\"id\":\"0.017150503462846745-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 6424
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyProductDetailsPageIsDisplayed",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[data-qa='addToBasket'], using=css selector}"
+          ],
+          "result": "[id: 0.3284305196546393-1]",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#title>h1, using=css selector}"
+          ],
+          "result": "id: 0.3284305196546393-2",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: #title>h1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: #title>h1",
+            "{\"id\":\"0.3284305196546393-2\"}"
+          ],
+          "result": "getElementText:Super Saver Dosa Rice/Akki, 2 kg",
+          "subLogs": [],
+          "duration": 32
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userAddQuantityToCart",
+      "args": [
+        "[3]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=qty, using=name}"
+          ],
+          "result": "id: 0.3284305196546393-3",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: qty",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: qty",
+            "{\"id\":\"0.3284305196546393-3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 136
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=qty, using=name}"
+          ],
+          "result": "id: 0.3284305196546393-3",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.name: qty",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: qty",
+            "{\"value\":[\"3\"],\"id\":\"0.3284305196546393-3\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 80
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[data-qa='addToBasket'], using=css selector}"
+          ],
+          "result": "id: 0.3284305196546393-1",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: div[data-qa='addToBasket']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: div[data-qa='addToBasket']",
+            "{\"id\":\"0.3284305196546393-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 137
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyTheAddedProductInMyBasket",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[data-qa='myBasket'], using=css selector}"
+          ],
+          "result": "id: 0.3284305196546393-4",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.cssSelector: div[data-qa='myBasket']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: div[data-qa='myBasket']",
+            "{\"id\":\"0.3284305196546393-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[data-qa='myBasket']+div  div:nth-child(3) div:nth-child(2), using=css selector}"
+          ],
+          "result": "[id: 0.3284305196546393-5]",
+          "subLogs": [],
+          "duration": 1282
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: div[data-qa='myBasket']+div  div:nth-child(3) div:nth-child(2)",
+            "{\"id\":\"0.3284305196546393-5\"}"
+          ],
+          "result": "getElementText:3",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[data-qa='myBasket']+div span+div>div:nth-child(2), using=css selector}"
+          ],
+          "result": "[id: 0.3284305196546393-6]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: div[data-qa='myBasket']+div span+div>div:nth-child(2)",
+            "{\"id\":\"0.3284305196546393-6\"}"
+          ],
+          "result": "getElementText:Super Saver Dosa Rice 2 kg",
+          "subLogs": [],
+          "duration": 16
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open application url",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 20166,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Opened URL --> https://www.bigbasket.com/?nc=logo",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user search with keyword \"dosa\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 765,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user select \"4\" th item from search suggesion list",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 13791,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Number of Items suggested = 20",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Clicking a product with Name = Dosa Rice",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify product details page is displayed",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6064,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Add to Basket present : Actual Add to Basket present",
+          "type": "Pass",
+          "screenshot": "img/VerifySearchAndAddingAProductToCart_ovt4b6nz6gy22033.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"Dosa Rice\"\n     Actual: was \"Super Saver Dosa Rice/Akki, 2 kg\"",
+          "type": "Pass",
+          "screenshot": "img/VerifySearchAndAddingAProductToCart_1llbut07am6zr22034.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user add \"3\" quantity to cart",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 471,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify the added product in my basket",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2053,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "QTY \nExpected: \"3\"\n     Actual: was \"3\"",
+          "type": "Pass",
+          "screenshot": "img/VerifySearchAndAddingAProductToCart_1fntfcpyhugng22035.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Product Name \nExpected: a string containing \"Dosa Rice\"\n     Actual: was \"Super Saver Dosa Rice 2 kg\"",
+          "type": "Pass",
+          "screenshot": "img/VerifySearchAndAddingAProductToCart_mvu8gwefhxgu22036.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": null
+}

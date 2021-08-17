@@ -1,0 +1,38 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given user have \"appointment\" API url with data \"get.by.district\"",
+      "type": "TestStepPass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user send \"GET\" request",
+      "type": "TestStepPass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then response status code should be \"200\"",
+      "type": "TestStepPass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And print the response body in console",
+      "type": "TestStepPass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

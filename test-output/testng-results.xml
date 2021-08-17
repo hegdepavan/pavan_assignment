@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Pavan Zebra Tech Interview" duration-ms="48407" started-at="2021-08-17T14:42:57Z" finished-at="2021-08-17T14:43:45Z">
+    <groups>
+      <group name="regression">
+        <method signature="scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions API by district()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Verify Get vaccination sessions API by district" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions by PIN for 7 days()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="Verify Get vaccination sessions by PIN for 7 days" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.features.UI.TC1_SearchAndAddItemToCart.feature.Verify search and adding a product to cart()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" name="Verify search and adding a product to cart" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- regression -->
+      <group name="API_TC_02">
+        <method signature="scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions by PIN for 7 days()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="Verify Get vaccination sessions by PIN for 7 days" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- API_TC_02 -->
+      <group name="API_TC_01">
+        <method signature="scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions API by district()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Verify Get vaccination sessions API by district" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- API_TC_01 -->
+    </groups>
+    <test name="In BDD" duration-ms="48407" started-at="2021-08-17T14:42:57Z" finished-at="2021-08-17T14:43:45Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="setupSuit" is-config="true" duration-ms="32" started-at="2021-08-17T20:12:57Z" finished-at="2021-08-17T20:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="setupTest" is-config="true" duration-ms="8" started-at="2021-08-17T20:12:57Z" finished-at="2021-08-17T20:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="setup" is-config="true" duration-ms="0" started-at="2021-08-17T20:12:57Z" finished-at="2021-08-17T20:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="setupMethod" is-config="true" duration-ms="0" started-at="2021-08-17T20:12:57Z" finished-at="2021-08-17T20:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify Get vaccination sessions API by district()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Verify Get vaccination sessions API by district" name="Verify Get vaccination sessions API by district" duration-ms="4406" started-at="2021-08-17T20:12:57Z" finished-at="2021-08-17T20:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify Get vaccination sessions API by district -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="afterClass" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:01Z" finished-at="2021-08-17T20:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:01Z" finished-at="2021-08-17T20:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify Get vaccination sessions API by district status=FAILURE method=scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions API by district()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="Verify Get vaccination sessions by PIN for 7 days()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="Verify Get vaccination sessions by PIN for 7 days" name="Verify Get vaccination sessions by PIN for 7 days" duration-ms="276" started-at="2021-08-17T20:13:01Z" finished-at="2021-08-17T20:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify Get vaccination sessions by PIN for 7 days -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions by PIN for 7 days" name="setupMethod" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:01Z" finished-at="2021-08-17T20:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions by PIN for 7 days" name="setup" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:01Z" finished-at="2021-08-17T20:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions by PIN for 7 days" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:02Z" finished-at="2021-08-17T20:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify Get vaccination sessions by PIN for 7 days status=FAILURE method=scenarios.features.API.GetVaccinationAppointment.feature.Verify Get vaccination sessions by PIN for 7 days()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify search and adding a product to cart()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify search and adding a product to cart" name="Verify search and adding a product to cart" duration-ms="43344" started-at="2021-08-17T20:13:02Z" finished-at="2021-08-17T20:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify search and adding a product to cart -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify search and adding a product to cart" name="setupMethod" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:02Z" finished-at="2021-08-17T20:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions by PIN for 7 days" name="afterClass" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:02Z" finished-at="2021-08-17T20:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify search and adding a product to cart" name="setup" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:02Z" finished-at="2021-08-17T20:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="afterTest" is-config="true" duration-ms="245" started-at="2021-08-17T20:13:45Z" finished-at="2021-08-17T20:13:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify search and adding a product to cart" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:45Z" finished-at="2021-08-17T20:13:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify search and adding a product to cart status=SUCCESS method=scenarios.features.UI.TC1_SearchAndAddItemToCart.feature.Verify search and adding a product to cart()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify search and adding a product to cart" name="afterClass" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:45Z" finished-at="2021-08-17T20:13:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Verify Get vaccination sessions API by district" name="afterSuit" is-config="true" duration-ms="0" started-at="2021-08-17T20:13:45Z" finished-at="2021-08-17T20:13:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29626d54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- In BDD -->
+  </suite> <!-- Pavan Zebra Tech Interview -->
+</testng-results>

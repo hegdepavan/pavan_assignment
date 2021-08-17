@@ -1,0 +1,140 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userHaveAPIUrlWithData",
+      "args": [
+        "[appointment, get.by.district]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "userSendRequest",
+      "args": [
+        "[GET]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "GET:https://cdn-api.co-vin.in/api/v2findByDistrict?district_id=512&date=31-07-2021",
+          "args": [
+            "/api/v2findByDistrict",
+            "district_id=512&date=31-07-2021"
+          ],
+          "result": "GET https://cdn-api.co-vin.in/api/v2findByDistrict?district_id=512&date=31-07-2021 returned a response status of 403 Forbidden",
+          "subLogs": [
+            {
+              "commandName": null,
+              "args": [
+                "Client out-bound request\nGET https://cdn-api.co-vin.in/api/v2findByDistrict?district_id=512&date=31-07-2021\nContent-Type: application/json,application/json\n"
+              ],
+              "result": "Client in-bound response\n403\nX-Cache: Error from cloudfront\nx-amz-apigw-id: ENx3BGXKBcwFhVA=\nAccess-Control-Allow-Origin: *\nAccess-Control-Allow-Methods: DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT\nX-Amz-Cf-Pop: MAA51-C1\nConnection: keep-alive\nX-Amzn-Trace-Id: Root=1-611bc9c6-2cfdd3aa130a70c23fc50257\nAccess-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token\nDate: Tue, 17 Aug 2021 14:37:58 GMT\nVia: 1.1 779d4a38a8a0cdb82e507946739e9fe9.cloudfront.net (CloudFront)\nx-amzn-ErrorType: MissingAuthenticationTokenException\nx-amzn-RequestId: 16281473-8e22-4d59-bc7c-a05b0784fe7f\nX-Amz-Cf-Id: eYg77CCztRY1ng1blRnd6vnwNLun4j55J_CdXsbihtZS0gbSFNK37w==\nContent-Length: 42\nContent-Type: application/json\n\n{\"message\":\"Missing Authentication Token\"}\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "responseStatusCodeShouldBe",
+      "args": [
+        "[200]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "printTheResponseBodyInConsole",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user have \"appointment\" API url with data \"get.by.district\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2695,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "API URL ---> https://cdn-api.co-vin.in/api/v2findByDistrict?district_id=512&date=31-07-2021",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user send \"GET\" request",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1235,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Sent GET request.....",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Tue Aug 17 20:07:58 IST 2021",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then response status code should be \"200\"",
+      "type": "TestStepFail",
+      "screenshot": "img/VerifyGetVaccinationSessionsAPIByDistrict_1enz0mfgq9nw861231.png",
+      "duration": 397,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Status code \nExpected: \"200\"\n     Actual: was &lt;403&gt;",
+          "type": "Fail",
+          "screenshot": "img/VerifyGetVaccinationSessionsAPIByDistrict_1enz0mfgq9nw861231.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And print the response body in console",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Response body ===== > {\"message\":\"Missing Authentication Token\"}",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": null
+}
